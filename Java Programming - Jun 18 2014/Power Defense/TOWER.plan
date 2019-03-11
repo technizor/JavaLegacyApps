@@ -1,0 +1,54 @@
+STANDARD TOWERS
+	damage
+		deals moderate single target damage
+		moderate charge up
+		moderate power
+	energy cannon
+		targeted aoe damage
+		moderate power
+		slow charge up
+		moderate damage
+	paralyzer
+		slows targets
+		will not target a target already slowed
+		low damage
+		low power
+	repeater turret
+		high range and rate of fire
+		low power
+		low damage
+SPECIAL TOWERS
+	generator field
+		small aoe damage every few seconds
+		damages targets in range
+		high power use
+		powers other towers every time it pulses
+	static striker
+		bouncing lightning nuke
+		the closer the target is to the previous target, the more damage is taken
+		medium power use
+	pulsar wave
+		sends out a pulse that deals damage and causes the target to pulse, dealing more damage
+		pulsed units deal aoe damage and apply pulse to units not already affected
+		high power use
+	amplifier
+		deals no damage
+		costs a small amount every time an affected tower attacks
+		increases the damage of affected towers
+	shredder
+		creates a line between other shredders in range that deals damage to units for every tick they stay on the line
+		low base damage, high scaling
+		low power usage (split between the two towers that activate when a unit is affected)
+			only once even if multiple lines
+	fragmenter
+		blasts an aoe stun at one target
+		high charge up
+		high cost
+		moderate damage
+	laser pointer
+		damages in a straight line
+		can be aimed
+		power cost increases the longer it is in use
+		damage increases the longer it is in use
+		attack length is capped
+		moderate charge up

@@ -1,0 +1,5 @@
+towers of hanoi
+implementation ideas:
+3 stacks of ints
+leftmost is full, and middle and reight are empty.
+the first stack is filled with ints of decreasing value(by ones) and to move an int object the stack on the receiving end must either be empty or the top int must be greater than that of the moving int.

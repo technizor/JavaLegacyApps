@@ -1,0 +1,24 @@
+- MinMax Rank does not rank properly (actually just sorts it). 
+	- could it be a problem with the constructor method??
+		- verified. not a problem with the constructor, but i streamlined all the
+		  constructors to reduce redundancy
+	- maybe the cause is the rank method in the ISort(gotta rename this thing) abstract
+	  class??
+		- doesnt make much sense bc/ it shares that rank function with the other sorts.
+	- could it be a neglected variable that i forgot to change in the minmax sort for
+	    determining the min and the max?? this is the most likely case.
+		- nope. not a missed variable. must be something else.
+	- fixed! problem was in the moving of the subelements in that particular sort.
+
+- when "Input has headers" is selected, the input file reader skips one element.
+	- fixed it so that it will not skip any elements and will ensure that if that box is
+	  checked, it will only save the first line read as the headers.
+
+- you cannot rank or sort text elements because currently it only supports numbers (greater than
+  and lesser than operations are required, and LSD radix needs to be overhauled to have letter
+  buckets.
+	- fixed for every available sort excluding the LSD radix sort (if you want a radix sort
+	  for text you will require the MSD radix sort instead)
+
+- nothing else so far!
+	- amazing!

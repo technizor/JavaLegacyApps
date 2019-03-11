@@ -1,0 +1,44 @@
+Minimum/Maximum Sort - 2048 Random entries
+61, 110, 60, 120, 90
+088.2 (ms) average sorting time
+
+Minimum/Maximum Sort - 8192 Random entries
+851, 811, 841, 881, 871
+851.0 (ms) average sorting time
+
+Minimum/Maximum Sort - 8192 Random entries
+681, 671, 711, 751, 701
+703 (ms) average sorting time
+
+Minimum/Maximum Sort - 2048 Random entries
+51, 100, 40, 70, 100
+072.2 (ms) average sorting time
+
+
+Bubble Sort - 2048 Random entries
+91, 120, 160, 110, 110
+118.2 (ms) average sorting time
+
+Bubble Sort - 8192 Random entries
+1322, 1322, 1342, 1342, 1302
+1306.0 (ms) average sorting time
+
+
+
+Bi-Directional BubbleSort Sort - 2048 Random entries
+90, 141, 150, 140, 130
+130.2 (ms) average sorting time
+
+Bi-Directional BubbleSort Sort - 8192 Random entries
+1282, 1272, 1252, 1281, 1302
+1277.8 (ms) average sorting time
+
+
+
+Merge Sort - 2048 Random entries
+581, 621, 581, 641, 581
+601.0 (ms) average sorting time
+
+Merge Sort - 8192 Random entries
+9334, 9243, 9283, 9303, 9364
+9305.4 (ms) average sorting time

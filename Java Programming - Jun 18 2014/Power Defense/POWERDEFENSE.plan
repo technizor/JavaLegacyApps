@@ -1,0 +1,53 @@
+tower defense game
+basic engine
+	top down camera
+	smooth scrolling
+	movable cursor for selection
+	key-bindings
+game-play features
+	20+ towers
+		special abilities after a certain upgrade level
+		towers have experience levels
+		towers can be upgraded for abilities, damage, and more efficient attacks costing a currency
+		towers scale on both experience and upgrade
+		not all towers are unlocked at the start
+			must buy the additional towers and abilities before usable in-game with a point system
+	power usage
+		when a tower fires a projectile it will increase the power usage by a certain amount per shot
+		this value has an upgrades such as decay rate, capacity, and cool-down time
+			this costs a currency
+		decays over time
+			if you go over capacity it will disable the towers until it drops below a certain percentage of the power
+			while cooling down after an over capacity it will deal global damage over time
+				damage is based on capacity over the cool-down period
+					this means that increasing the power capacity increases the damage
+					increasing the cool-down speed increases the rate at which they take damage
+	currency
+		increases over time gradually
+		also increases from killing enemies
+		can be spent for upgrades and more towers
+	waves
+		waves consist of series of mobs that enter at the entry point(s) and will travel to the single exit point
+		every time one reaches the exit point, it will detonate and damage the core
+		waves progress over time but can be advanced for bonus points
+		every X waves is a boss
+		every Y boss waves is one level
+	core
+		the core generates the power for the towers
+		regenerates health over time
+		the more damage, the less effectively it will function
+		past a certain threshold, it will operate at a capped minimum performance level
+singleplayer
+	points
+		accrued from playing games
+		can be spent to unlock stronger towers and their abilities
+		possibly used to unlock new maps, textures, and the map editor
+	profile
+		shows enemies killed, games played, wins, losses, and other stats such as tower choices
+multiplayer
+	max two players on one computer
+	possible local multiplayer and online create a game with ports
+map format
+	minimum size of 20*20 to conform with the game window size
+	tags: name, width, height, mode, colour
+	tiles: list of integer ids (single digits)
